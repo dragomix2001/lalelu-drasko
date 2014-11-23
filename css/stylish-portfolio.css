@@ -1,0 +1,286 @@
+@font-face {
+  font-family: "gandhi sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/gandhi-sans.ttf), url(../fonts/gandhi-serif.eot);
+}
+@font-face {
+  font-family: "gandhi sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/gandhi-bold-sans.ttf), url(../fonts/gandhi-bold-sans.eot);
+}
+@font-face {
+  font-family: "gandhi serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/gandhi-serif.ttf), url(../fonts/gandhi-serif.eot);
+}
+@font-face {
+  font-family: "gandhi serif";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/gandhi-bold-serif.ttf), url(../fonts/gandhi-bold-serif.eot);
+}
+
+@font-face {
+  font-family: 'CostumDog';
+  font-weight: 400;
+  src: url('../fonts/GoodDog/GoodDog.otf') format('opentype'), 
+       url('../fonts/GoodDog/GoodDog.otf') format('opentype'); 
+}
+
+body {
+    background-color: none;
+  font-size: 20px;
+}
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'CostumDog', "gandhi sans", helvetica, sans-serif;
+}
+.btn {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+}
+.container {
+  max-width: 920px;
+}
+/*.navbar {
+  background: #111;
+  padding: 0.3em 0;
+}
+.navbar .navbar-brand {
+  color: #fff;
+  font-family: "gandhi serif", georgia, serif;
+  font-weight: bold;
+}
+.navbar ul.nav li a {
+  color: #fff;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 1.5em;
+}
+.navbar ul.nav li button {
+  margin: 0.7em 0 0 1em;
+}*/
+.navbar-default {
+	/*background-color: rgb(204,222,222);
+	border-color: rgb(204,222,222);*/
+    background: -webkit-linear-gradient(left, white ,rgb(204,222,222) ,white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, white ,rgb(204,222,222) ,white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, white ,rgb(204,222,222) ,white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, white ,rgb(204,222,222) ,white); /* Standard syntax (must be last) */
+    border-color: none;
+}
+.navbar-default .navbar-brand {
+	color: #8EC543;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #dd22e1;
+}
+.navbar-default .navbar-text {
+	color: #8EC543;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #8EC543;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #7D2D90;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #7D2D90;
+	background-color:rgb(204,222,222);
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #7D2D90;
+	/*background-color: #ffffff;*/
+}
+.navbar-default .navbar-toggle {
+	/*border-color: #ffffff;*/
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #3ea44a;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #3ea44a;
+}
+.navbar-default .navbar-link {
+	color: #3ea44a;
+}
+.navbar-default .navbar-link:hover {
+	color: #dd22e1;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #3ea44a;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #dd22e1;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #dd22e1;
+		background-color: #ffffff;
+	}
+}
+/*.jumbotron{
+    background: url("bg.jpg") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}*/
+
+.jumbotron {
+  background: url(../img/noisy_net.png) no-repeat center center;
+  color: #fff;
+  padding: 6.5em 0 6em;
+  text-align: center;
+  -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.jumbotron h1 {
+  font-family: 'CostumDog',"gandhi serif", georgia, serif;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #000;
+}
+.jumbotron h2 {
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.4em;
+  margin-bottom: 1.4em;
+}
+.jumbotron .btn {
+  box-shadow: 1px 1px 3px #000;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0.3em 2.5em 0.5em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.jumbotron .btn .glyphicon {
+  margin-left: 0.2em;
+  position: relative;
+  top: 3px;
+}
+
+#top .container {
+    padding-bottom: 70px;
+}
+
+#top .container h2 {
+    color: #000;
+}
+
+/*.sect-border {
+  border-top: 1px dashed #d6d6d6;
+  border-bottom: 1px dashed #f6f6f6;
+  margin: 2em 8% 2.4em;
+}*/
+.subhead {
+  color: #000;
+  font-family: 'CostumDog',"gandhi serif", georgia, serif;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0.3em 0;
+}
+.benefit {
+  margin: 0.8em 0;
+  text-align: center;
+}
+.benefit div {
+    display: inline-block;
+}
+.benefit .benefit-ball {
+  /*background: #428bca;*/
+  background:#8EC543;
+  border-radius: 50%;
+  color: #FFF;
+  display: inline-block;
+  line-height: 1em;
+  padding: 4px;
+}
+div .benefit-ball {
+    display: inline-block;
+    float: left;
+}
+.benefit .benefit-ball .glyphicon {
+  font-size: 2em;
+  position: relative;
+  top: -3px;
+  right: 1px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.benefit h3 {
+  /*color: #000;*/
+  font-family: 'CostumDog',"gandhi serif", georgia, serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+#slideshow {
+  margin: 0.5em 0 1.5em;
+}
+#slideshow .carousel-inner img {
+  /*background: #000;*/
+  height: 300px;
+  width: 100%;
+}
+footer {
+  /*background: #111;*/
+  
+  background: -webkit-linear-gradient(top, white ,rgb(204,222,222)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, white ,rgb(204,222,222) ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, white ,rgb(204,222,222) ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(top, white ,rgb(204,222,222)); /* Standard syntax (must be last) */
+    
+  color: #000;
+  margin: 3.5em 0 0;
+  padding: 1.5em 0 0.8em;
+}
+@media screen and (max-width: 768px) {
+  .navbar ul.nav li {
+    text-align: center;
+  }
+  .navbar ul.nav li button {
+    margin: 1em 0;
+  }
+  .jumbotron {
+    font-size: 14px;
+    padding: 6em 0 4em;
+  }
+  .benefit {
+    margin-bottom: 2em;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+  .jumbotron {
+    font-size: 12px;
+  }
+  footer .pull-right {
+    display: none;
+  }
+}
+
+
+.logo {
+   
+    width: 150px;
+    text-align: center;
+    /*padding-top: 17px;
+    margin-right: 50px;*/
+    background: url(../img/Logo.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
